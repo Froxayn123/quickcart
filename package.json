@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce-inngest",
+  "name": "quickcart",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.35.5",
+    "inngest": "^3.30.0",
+    "mongoose": "^9.0.0",
     "next": "^15.5.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
